@@ -79,4 +79,4 @@ model = {'scaler': scaler, 'pca': pca, 'kmean': kmeans_pca}
 with open('trained_model_clustering.pkl', 'wb') as f:
     pickle.dump(model, f)
 
-
+####
